@@ -1,4 +1,4 @@
-tail -n 500 spi_get_proxies.log
+$ tail -n 500 spi_get_proxies.log
 
 
 Wed, 19 Oct 2016 16:00:18 connectionpool.py[line:214] INFO Starting new HTTP connection (7): 119.141.129.53
