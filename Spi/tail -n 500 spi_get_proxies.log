@@ -1,0 +1,503 @@
+tail -n 500 spi_get_proxies.log
+
+
+Wed, 19 Oct 2016 16:00:18 connectionpool.py[line:214] INFO Starting new HTTP connection (7): 119.141.129.53
+Wed, 19 Oct 2016 16:00:18 connectionpool.py[line:214] INFO Starting new HTTP connection (3): 27.37.22.5
+Wed, 19 Oct 2016 16:00:18 connectionpool.py[line:214] INFO Starting new HTTP connection (10): 116.29.191.109
+Wed, 19 Oct 2016 16:00:18 connectionpool.py[line:249] INFO Resetting dropped connection: 183.50.138.247
+Wed, 19 Oct 2016 16:00:18 connectionpool.py[line:214] INFO Starting new HTTP connection (3): 112.92.211.117
+Wed, 19 Oct 2016 16:00:18 connectionpool.py[line:214] INFO Starting new HTTP connection (5): 58.252.73.14
+Wed, 19 Oct 2016 16:00:18 connectionpool.py[line:214] INFO Starting new HTTP connection (5): 183.50.138.0
+Wed, 19 Oct 2016 16:00:18 connectionpool.py[line:214] INFO Starting new HTTP connection (2): 113.95.255.80
+Wed, 19 Oct 2016 16:00:18 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='183.53.242.176', port=8118): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2a18350>: Failed to establish a new connection: [Errno 111] Connection refused',)))
+Wed, 19 Oct 2016 16:00:18 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='183.19.42.47', port=3128): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d4fcd0>: Failed to establish a new connection: [Errno 111] Connection refused',)))
+Wed, 19 Oct 2016 16:00:18 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='183.50.138.0', port=3128): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d5b210>: Failed to establish a new connection: [Errno 111] Connection refused',)))
+Wed, 19 Oct 2016 16:00:18 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 None
+Wed, 19 Oct 2016 16:00:18 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='116.19.183.225', port=3128): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d4f210>: Failed to establish a new connection: [Errno 111] Connection refused',)))
+Wed, 19 Oct 2016 16:00:19 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='202.104.12.241', port=8998): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2ca51d0>: Failed to establish a new connection: [Errno 113] No route to host',)))
+Wed, 19 Oct 2016 16:00:21 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 16:00:22 spi_get_proxies.py[line:85] ERROR ('Connection aborted.', BadStatusLine("''",))
+Wed, 19 Oct 2016 16:00:23 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 27278
+Wed, 19 Oct 2016 16:00:31 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='218.18.10.153', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', error(104, 'Connection reset by peer')))
+Wed, 19 Oct 2016 16:00:34 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 16:00:37 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 16:00:41 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 16:00:42 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 16:00:44 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 16:00:45 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='27.42.236.240', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', error(104, 'Connection reset by peer')))
+Wed, 19 Oct 2016 16:00:51 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 7367
+Wed, 19 Oct 2016 16:01:04 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 16:01:04 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 16:02:10 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 16:02:26 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='58.252.73.14', port=9090): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d5bf50>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 16:02:26 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='112.92.211.117', port=9999): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d30f90>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 16:02:26 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='116.29.191.109', port=9999): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d30310>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 16:02:26 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='119.141.129.53', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2a34390>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 16:02:26 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='27.46.33.130', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2ca52d0>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 16:02:26 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='121.34.226.22', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2ca55d0>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 16:02:26 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='116.30.155.101', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2ca5fd0>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 16:02:26 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='183.19.41.71', port=3128): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d31910>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 16:02:26 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='163.125.254.203', port=9999): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2bd3ed0>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 16:03:31 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 504 1108
+Wed, 19 Oct 2016 16:03:31 spi_get_proxies.py[line:85] ERROR Visit 500
+Wed, 19 Oct 2016 16:03:31 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:05:01 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:06:31 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:08:01 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:09:31 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:11:01 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:12:31 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:14:01 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:15:31 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:17:01 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:18:31 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:20:01 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:21:31 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:23:01 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:24:32 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:26:02 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:27:32 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:29:02 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:30:32 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:32:02 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:33:32 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:35:02 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:36:32 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:38:02 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:39:32 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:41:02 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:42:32 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:44:02 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:45:32 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:47:02 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:48:32 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:50:02 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:51:32 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:53:02 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:54:32 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:56:02 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:57:32 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 16:59:02 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:00:32 connectionpool.py[line:249] INFO Resetting dropped connection: www.66ip.cn
+Wed, 19 Oct 2016 17:00:32 connectionpool.py[line:401] DEBUG "GET /areaindex_19/index.html HTTP/1.1" 200 None
+Wed, 19 Oct 2016 17:00:33 spi_get_proxies.py[line:54] INFO get the proxies ip
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:249] INFO Resetting dropped connection: 14.112.134.80
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:214] INFO Starting new HTTP connection (5): 183.53.242.176
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:249] INFO Resetting dropped connection: 113.66.170.148
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:214] INFO Starting new HTTP connection (10): 116.20.129.217
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:214] INFO Starting new HTTP connection (14): 163.125.254.203
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:214] INFO Starting new HTTP connection (7): 218.18.10.153
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:214] INFO Starting new HTTP connection (12): 183.19.42.47
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:249] INFO Resetting dropped connection: 202.105.179.164
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:249] INFO Resetting dropped connection: 113.98.96.37
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:214] INFO Starting new HTTP connection (3): 116.19.183.225
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:249] INFO Resetting dropped connection: 14.144.222.55
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:249] INFO Resetting dropped connection: 183.18.164.36
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:214] INFO Starting new HTTP connection (1): 113.111.150.68
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:249] INFO Resetting dropped connection: 14.29.124.53
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:214] INFO Starting new HTTP connection (2): 27.42.236.240
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:214] INFO Starting new HTTP connection (17): 183.19.41.71
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:249] INFO Resetting dropped connection: 113.68.10.3
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:249] INFO Resetting dropped connection: 14.219.188.181
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:249] INFO Resetting dropped connection: 112.95.152.222
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:214] INFO Starting new HTTP connection (6): 202.104.12.241
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:214] INFO Starting new HTTP connection (13): 116.30.155.101
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:249] INFO Resetting dropped connection: 27.37.22.5
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:214] INFO Starting new HTTP connection (7): 27.46.33.130
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:214] INFO Starting new HTTP connection (8): 119.141.129.53
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:214] INFO Starting new HTTP connection (9): 121.34.226.22
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:214] INFO Starting new HTTP connection (11): 116.29.191.109
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:249] INFO Resetting dropped connection: 183.50.138.247
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:214] INFO Starting new HTTP connection (1): 113.109.17.73
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:214] INFO Starting new HTTP connection (4): 112.92.211.117
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:214] INFO Starting new HTTP connection (6): 58.252.73.14
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:214] INFO Starting new HTTP connection (6): 183.50.138.0
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:249] INFO Resetting dropped connection: 113.95.255.80
+Wed, 19 Oct 2016 17:00:33 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='183.53.242.176', port=8118): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2a34d50>: Failed to establish a new connection: [Errno 111] Connection refused',)))
+Wed, 19 Oct 2016 17:00:33 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='183.50.138.0', port=3128): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2e95590>: Failed to establish a new connection: [Errno 111] Connection refused',)))
+Wed, 19 Oct 2016 17:00:33 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='183.19.42.47', port=3128): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2bd35d0>: Failed to establish a new connection: [Errno 111] Connection refused',)))
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 None
+Wed, 19 Oct 2016 17:00:33 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 17:00:34 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 17:00:35 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 17:00:36 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 27278
+Wed, 19 Oct 2016 17:00:43 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 17:00:46 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 17:00:50 spi_get_proxies.py[line:85] ERROR ('Connection aborted.', BadStatusLine("''",))
+Wed, 19 Oct 2016 17:01:08 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 17:01:10 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 17:02:40 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='58.252.73.14', port=9090): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2e81fd0>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 17:02:40 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='112.92.211.117', port=9999): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2e81a10>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 17:02:40 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='113.109.17.73', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2a419d0>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 17:02:40 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='116.29.191.109', port=9999): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2ca1cd0>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 17:02:40 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='121.34.226.22', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d4fc90>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 17:02:40 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='119.141.129.53', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d4fa50>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 17:02:40 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='27.46.33.130', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d4f990>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 17:02:40 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='27.37.22.5', port=8080): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2c9fb10>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 17:02:40 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='116.30.155.101', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2c9ee10>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 17:02:40 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='202.104.12.241', port=8998): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2c9e8d0>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 17:02:40 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='14.219.188.181', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d4ff90>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 17:02:40 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='183.19.41.71', port=3128): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2c8e490>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 17:02:40 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='27.42.236.240', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2c8e990>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 17:02:40 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='14.144.222.55', port=9999): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d44ed0>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 17:02:40 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='116.19.183.225', port=3128): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d5b0d0>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 17:02:40 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='218.18.10.153', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d32c90>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 17:02:40 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='163.125.254.203', port=9999): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d28f50>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 17:02:40 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='14.112.134.80', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d44150>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 17:03:29 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 504 1108
+Wed, 19 Oct 2016 17:03:29 spi_get_proxies.py[line:85] ERROR Visit 500
+Wed, 19 Oct 2016 17:03:29 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:04:59 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:06:29 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:07:59 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:09:29 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:10:59 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:12:29 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:13:59 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:15:29 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:16:59 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:18:29 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:19:59 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:21:29 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:22:59 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:24:29 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:25:59 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:27:29 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:28:59 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:30:29 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:31:59 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:33:29 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:35:00 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:36:30 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:38:00 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:39:30 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:41:00 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:42:30 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:44:00 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:45:30 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:47:00 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:48:30 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:50:00 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:51:30 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:53:00 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:54:30 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:56:00 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:57:30 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 17:59:00 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:00:30 connectionpool.py[line:249] INFO Resetting dropped connection: www.66ip.cn
+Wed, 19 Oct 2016 18:00:30 connectionpool.py[line:401] DEBUG "GET /areaindex_19/index.html HTTP/1.1" 200 None
+Wed, 19 Oct 2016 18:00:31 spi_get_proxies.py[line:54] INFO get the proxies ip
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:249] INFO Resetting dropped connection: 59.34.2.93
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:214] INFO Starting new HTTP connection (6): 14.112.134.80
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:214] INFO Starting new HTTP connection (6): 183.53.242.176
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:249] INFO Resetting dropped connection: 113.66.170.148
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:214] INFO Starting new HTTP connection (1): 219.131.110.134
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:214] INFO Starting new HTTP connection (11): 116.20.129.217
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:214] INFO Starting new HTTP connection (15): 163.125.254.203
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:214] INFO Starting new HTTP connection (8): 218.18.10.153
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:214] INFO Starting new HTTP connection (13): 183.19.42.47
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:249] INFO Resetting dropped connection: 202.105.179.164
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:249] INFO Resetting dropped connection: 113.98.96.37
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:214] INFO Starting new HTTP connection (4): 116.19.183.225
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:214] INFO Starting new HTTP connection (5): 14.144.222.55
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:249] INFO Resetting dropped connection: 183.18.164.36
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:249] INFO Resetting dropped connection: 113.111.150.68
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:249] INFO Resetting dropped connection: 14.29.124.53
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:214] INFO Starting new HTTP connection (3): 27.42.236.240
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:214] INFO Starting new HTTP connection (18): 183.19.41.71
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:249] INFO Resetting dropped connection: 113.68.10.3
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:214] INFO Starting new HTTP connection (4): 14.219.188.181
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:249] INFO Resetting dropped connection: 112.95.152.222
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:214] INFO Starting new HTTP connection (7): 202.104.12.241
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:214] INFO Starting new HTTP connection (14): 116.30.155.101
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:214] INFO Starting new HTTP connection (4): 27.37.22.5
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:214] INFO Starting new HTTP connection (8): 27.46.33.130
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:214] INFO Starting new HTTP connection (9): 119.141.129.53
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:214] INFO Starting new HTTP connection (10): 121.34.226.22
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:214] INFO Starting new HTTP connection (12): 116.29.191.109
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:249] INFO Resetting dropped connection: 183.50.138.247
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:214] INFO Starting new HTTP connection (2): 113.109.17.73
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:214] INFO Starting new HTTP connection (5): 112.92.211.117
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:214] INFO Starting new HTTP connection (7): 58.252.73.14
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:214] INFO Starting new HTTP connection (7): 183.50.138.0
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:249] INFO Resetting dropped connection: 113.95.255.80
+Wed, 19 Oct 2016 18:00:31 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='183.19.42.47', port=3128): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d5ba10>: Failed to establish a new connection: [Errno 111] Connection refused',)))
+Wed, 19 Oct 2016 18:00:31 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='183.50.138.0', port=3128): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d2c790>: Failed to establish a new connection: [Errno 111] Connection refused',)))
+Wed, 19 Oct 2016 18:00:31 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 18:00:33 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 18:00:33 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 18:00:37 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 18:00:40 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 18:00:43 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 None
+Wed, 19 Oct 2016 18:00:46 spi_get_proxies.py[line:85] ERROR ('Connection aborted.', BadStatusLine("''",))
+Wed, 19 Oct 2016 18:00:47 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 18:00:55 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 18:00:56 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 27278
+Wed, 19 Oct 2016 18:00:56 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 18:00:58 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='14.219.188.181', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', error(104, 'Connection reset by peer')))
+Wed, 19 Oct 2016 18:01:00 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='27.46.33.130', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', error(104, 'Connection reset by peer')))
+Wed, 19 Oct 2016 18:01:05 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 18:01:05 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 18:01:12 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='218.18.10.153', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', error(104, 'Connection reset by peer')))
+Wed, 19 Oct 2016 18:01:53 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='27.42.236.240', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', error(104, 'Connection reset by peer')))
+Wed, 19 Oct 2016 18:02:07 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 7372
+Wed, 19 Oct 2016 18:02:38 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='112.92.211.117', port=9999): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2ca52d0>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 18:02:38 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='113.109.17.73', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2e95090>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 18:02:38 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='116.29.191.109', port=9999): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2e959d0>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 18:02:38 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='121.34.226.22', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2e955d0>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 18:02:38 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='119.141.129.53', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2bef5d0>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 18:02:38 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='116.30.155.101', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d284d0>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 18:02:38 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='202.104.12.241', port=8998): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d28710>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 18:02:38 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='112.95.152.222', port=8080): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d28650>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 18:02:38 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='113.68.10.3', port=9999): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2c94450>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 18:02:38 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='183.19.41.71', port=3128): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d30950>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 18:02:38 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='14.144.222.55', port=9999): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d31050>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 18:02:38 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='116.19.183.225', port=3128): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2bc8ed0>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 18:02:38 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='163.125.254.203', port=9999): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2a18750>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 18:02:38 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='183.53.242.176', port=8118): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2c72790>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 18:02:38 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:04:08 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:05:38 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:07:08 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:08:38 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:10:08 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:11:38 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:13:08 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:14:38 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:16:08 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:17:38 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:19:08 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:20:38 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:22:08 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:23:38 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:25:08 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:26:38 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:28:08 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:29:38 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:31:08 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:32:38 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:34:08 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:35:38 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:37:08 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:38:38 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:40:08 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:41:38 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:43:09 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:44:39 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:46:09 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:47:39 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:49:09 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:50:39 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:52:09 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:53:39 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:55:09 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:56:39 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:58:09 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 18:59:39 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:249] INFO Resetting dropped connection: www.66ip.cn
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:401] DEBUG "GET /areaindex_19/index.html HTTP/1.1" 200 None
+Wed, 19 Oct 2016 19:01:09 spi_get_proxies.py[line:54] INFO get the proxies ip
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:249] INFO Resetting dropped connection: 59.34.2.93
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:249] INFO Resetting dropped connection: 14.112.134.80
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:214] INFO Starting new HTTP connection (7): 183.53.242.176
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:249] INFO Resetting dropped connection: 113.66.170.148
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:249] INFO Resetting dropped connection: 219.131.110.134
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:214] INFO Starting new HTTP connection (12): 116.20.129.217
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:214] INFO Starting new HTTP connection (16): 163.125.254.203
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:214] INFO Starting new HTTP connection (9): 218.18.10.153
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:214] INFO Starting new HTTP connection (14): 183.19.42.47
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:249] INFO Resetting dropped connection: 202.105.179.164
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:249] INFO Resetting dropped connection: 113.98.96.37
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:214] INFO Starting new HTTP connection (5): 116.19.183.225
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:214] INFO Starting new HTTP connection (6): 14.144.222.55
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:249] INFO Resetting dropped connection: 183.18.164.36
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:249] INFO Resetting dropped connection: 121.10.234.15
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:249] INFO Resetting dropped connection: 113.111.150.68
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:249] INFO Resetting dropped connection: 14.29.124.53
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:214] INFO Starting new HTTP connection (4): 27.42.236.240
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:214] INFO Starting new HTTP connection (19): 183.19.41.71
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:214] INFO Starting new HTTP connection (6): 113.68.10.3
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:214] INFO Starting new HTTP connection (5): 14.219.188.181
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:214] INFO Starting new HTTP connection (9): 112.95.152.222
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:214] INFO Starting new HTTP connection (8): 202.104.12.241
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:214] INFO Starting new HTTP connection (15): 116.30.155.101
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:249] INFO Resetting dropped connection: 27.37.22.5
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:214] INFO Starting new HTTP connection (9): 27.46.33.130
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:214] INFO Starting new HTTP connection (10): 119.141.129.53
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:214] INFO Starting new HTTP connection (11): 121.34.226.22
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:214] INFO Starting new HTTP connection (13): 116.29.191.109
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:249] INFO Resetting dropped connection: 183.50.138.247
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:214] INFO Starting new HTTP connection (3): 113.109.17.73
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:214] INFO Starting new HTTP connection (6): 112.92.211.117
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:214] INFO Starting new HTTP connection (1): 27.42.237.183
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:249] INFO Resetting dropped connection: 58.252.73.14
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:214] INFO Starting new HTTP connection (8): 183.50.138.0
+Wed, 19 Oct 2016 19:01:09 connectionpool.py[line:249] INFO Resetting dropped connection: 113.95.255.80
+Wed, 19 Oct 2016 19:01:09 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='183.19.42.47', port=3128): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2ca5ad0>: Failed to establish a new connection: [Errno 111] Connection refused',)))
+Wed, 19 Oct 2016 19:01:09 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='183.50.138.0', port=3128): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2ea2650>: Failed to establish a new connection: [Errno 111] Connection refused',)))
+Wed, 19 Oct 2016 19:01:10 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 19:01:10 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 19:01:10 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 19:01:11 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 19:01:11 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 19:01:12 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 None
+Wed, 19 Oct 2016 19:01:13 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 27278
+Wed, 19 Oct 2016 19:01:18 spi_get_proxies.py[line:85] ERROR ('Connection aborted.', BadStatusLine("''",))
+Wed, 19 Oct 2016 19:01:36 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 19:01:40 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 19:01:41 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 19:01:45 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 19:01:54 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 19:02:01 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 7372
+Wed, 19 Oct 2016 19:02:06 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 7367
+Wed, 19 Oct 2016 19:02:09 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 19:02:58 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='27.42.237.183', port=9999): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', error(104, 'Connection reset by peer')))
+Wed, 19 Oct 2016 19:03:16 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='112.92.211.117', port=9999): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d446d0>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 19:03:16 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='113.109.17.73', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2ca1690>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 19:03:16 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='116.29.191.109', port=9999): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d2cdd0>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 19:03:16 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='121.34.226.22', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2c8d810>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 19:03:16 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='119.141.129.53', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2c9e590>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 19:03:16 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='27.46.33.130', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d4f950>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 19:03:16 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='116.30.155.101', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d4f9d0>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 19:03:16 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='202.104.12.241', port=8998): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2bf1090>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 19:03:16 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='112.95.152.222', port=8080): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2a0a550>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 19:03:16 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='14.219.188.181', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2c7ae90>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 19:03:16 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='183.19.41.71', port=3128): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d5b8d0>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 19:03:16 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='116.19.183.225', port=3128): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2e95e10>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 19:03:16 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='163.125.254.203', port=9999): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2a28850>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 19:03:16 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='183.53.242.176', port=8118): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2e81510>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 19:03:17 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='113.68.10.3', port=9999): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', error(104, 'Connection reset by peer')))
+Wed, 19 Oct 2016 19:04:27 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 7367
+Wed, 19 Oct 2016 19:04:42 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='218.18.10.153', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', error(104, 'Connection reset by peer')))
+Wed, 19 Oct 2016 19:04:42 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:06:12 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:07:42 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:09:12 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:10:42 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:12:12 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:13:42 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:15:12 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:16:42 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:18:12 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:19:42 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:21:12 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:22:42 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:24:12 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:25:42 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:27:12 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:28:42 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:30:12 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:31:42 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:33:12 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:34:42 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:36:12 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:37:42 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:39:12 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:40:42 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:42:12 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:43:42 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:45:12 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:46:42 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:48:12 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:49:42 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:51:12 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:52:42 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:54:12 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:55:42 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:57:12 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 19:58:42 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 20:00:12 connectionpool.py[line:249] INFO Resetting dropped connection: www.66ip.cn
+Wed, 19 Oct 2016 20:00:12 connectionpool.py[line:401] DEBUG "GET /areaindex_19/index.html HTTP/1.1" 200 None
+Wed, 19 Oct 2016 20:00:15 spi_get_proxies.py[line:54] INFO get the proxies ip
+Wed, 19 Oct 2016 20:00:15 connectionpool.py[line:249] INFO Resetting dropped connection: 59.34.2.93
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:249] INFO Resetting dropped connection: 14.112.134.80
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:214] INFO Starting new HTTP connection (8): 183.53.242.176
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:249] INFO Resetting dropped connection: 113.66.170.148
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:249] INFO Resetting dropped connection: 219.131.110.134
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:214] INFO Starting new HTTP connection (13): 116.20.129.217
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:214] INFO Starting new HTTP connection (17): 163.125.254.203
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:214] INFO Starting new HTTP connection (1): 219.136.231.6
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:214] INFO Starting new HTTP connection (10): 218.18.10.153
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:214] INFO Starting new HTTP connection (15): 183.19.42.47
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:249] INFO Resetting dropped connection: 202.105.179.164
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:249] INFO Resetting dropped connection: 113.98.96.37
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:214] INFO Starting new HTTP connection (6): 116.19.183.225
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:249] INFO Resetting dropped connection: 14.144.222.55
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:249] INFO Resetting dropped connection: 183.18.164.36
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:249] INFO Resetting dropped connection: 121.10.234.15
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:249] INFO Resetting dropped connection: 113.111.150.68
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:249] INFO Resetting dropped connection: 14.29.124.53
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:249] INFO Resetting dropped connection: 27.42.236.240
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:214] INFO Starting new HTTP connection (20): 183.19.41.71
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:214] INFO Starting new HTTP connection (7): 113.68.10.3
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:214] INFO Starting new HTTP connection (6): 14.219.188.181
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:214] INFO Starting new HTTP connection (10): 112.95.152.222
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:214] INFO Starting new HTTP connection (9): 202.104.12.241
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:214] INFO Starting new HTTP connection (16): 116.30.155.101
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:249] INFO Resetting dropped connection: 27.37.22.5
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:214] INFO Starting new HTTP connection (10): 27.46.33.130
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:214] INFO Starting new HTTP connection (11): 119.141.129.53
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:214] INFO Starting new HTTP connection (12): 121.34.226.22
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:214] INFO Starting new HTTP connection (14): 116.29.191.109
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:249] INFO Resetting dropped connection: 183.50.138.247
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:214] INFO Starting new HTTP connection (4): 113.109.17.73
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:214] INFO Starting new HTTP connection (7): 112.92.211.117
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:214] INFO Starting new HTTP connection (2): 27.42.237.183
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:249] INFO Resetting dropped connection: 58.252.73.14
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:214] INFO Starting new HTTP connection (9): 183.50.138.0
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:249] INFO Resetting dropped connection: 113.95.255.80
+Wed, 19 Oct 2016 20:00:16 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='183.19.42.47', port=3128): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2a216d0>: Failed to establish a new connection: [Errno 111] Connection refused',)))
+Wed, 19 Oct 2016 20:00:16 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='183.50.138.0', port=3128): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2ea6f50>: Failed to establish a new connection: [Errno 111] Connection refused',)))
+Wed, 19 Oct 2016 20:00:16 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='113.95.255.80', port=3128): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d5b690>: Failed to establish a new connection: [Errno 111] Connection refused',)))
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 20:00:16 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 27278
+Wed, 19 Oct 2016 20:00:16 spi_get_proxies.py[line:85] ERROR ('Connection aborted.', BadStatusLine("''",))
+Wed, 19 Oct 2016 20:00:17 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 20:00:17 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 20:00:18 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 20:00:18 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 20:00:21 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 20:00:22 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 20:00:30 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='27.46.33.130', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', error(104, 'Connection reset by peer')))
+Wed, 19 Oct 2016 20:00:36 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 None
+Wed, 19 Oct 2016 20:00:41 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 7367
+Wed, 19 Oct 2016 20:00:46 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 20:00:51 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 7372
+Wed, 19 Oct 2016 20:00:51 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 20:00:54 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 20:00:57 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 20:01:40 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='27.42.236.240', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', error(104, 'Connection reset by peer')))
+Wed, 19 Oct 2016 20:01:57 connectionpool.py[line:401] DEBUG "GET http://www.baidu.com/ HTTP/1.1" 200 2381
+Wed, 19 Oct 2016 20:02:23 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='112.92.211.117', port=9999): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2ea6710>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 20:02:23 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='113.109.17.73', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2ea6390>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 20:02:23 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='116.29.191.109', port=9999): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2c8e2d0>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 20:02:23 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='121.34.226.22', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d28650>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 20:02:23 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='119.141.129.53', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d28a50>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 20:02:23 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='116.30.155.101', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2ca5d10>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 20:02:23 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='202.104.12.241', port=8998): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d31210>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 20:02:23 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='113.68.10.3', port=9999): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2e95550>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 20:02:23 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='183.19.41.71', port=3128): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2e95fd0>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 20:02:23 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='116.19.183.225', port=3128): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d4f910>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 20:02:23 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='218.18.10.153', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2c8df50>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 20:02:23 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='219.136.231.6', port=9797): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2ca1690>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 20:02:23 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='163.125.254.203', port=9999): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2a308d0>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 20:02:23 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='219.131.110.134', port=3128): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2c94590>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 20:02:23 spi_get_proxies.py[line:85] ERROR HTTPConnectionPool(host='183.53.242.176', port=8118): Max retries exceeded with url: http://www.baidu.com/ (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x2d5c710>: Failed to establish a new connection: [Errno 110] Connection timed out',)))
+Wed, 19 Oct 2016 20:02:23 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 20:03:53 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 20:05:23 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 20:06:53 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 20:08:23 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 20:09:53 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 20:11:23 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 20:12:53 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 20:14:23 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 20:15:53 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 20:17:23 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 20:18:53 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 20:20:23 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 20:21:53 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 20:23:23 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 20:24:53 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 20:26:23 spi_get_proxies.py[line:136] INFO Sleeping in 90s
+Wed, 19 Oct 2016 20:27:53 spi_get_proxies.py[line:136] INFO Sleeping in 90s
