@@ -22,7 +22,7 @@ class Get_UA_List:
         self.urlheader = 'http://udger.com'
         self.begin_s = '/resources/ua-list/browser-detail?browser=360 browser'
         self.end_s = '/resources/ua-list/browser-detail?browser=ZipZap'
-        print 'Start query_url'
+        print('Start query_url')
         self.query_url()
 
     def query_url(self):
@@ -40,13 +40,13 @@ class Get_UA_List:
         for i in self.seqlist[begin_num:end_num + 1]:
             savelist.append(self.urlheader + i)
 
-        print savelist
-        print 'Saving'
+        print(savelist)
+        print('Saving')
         p = r1.pipeline()
         for i in savelist:
             p.lpush(url_UA, i)
         p.execute()
-        print 'Finished'
+        print('Finished')
 # A = Get_UA_List()
 # A.save_url()
 
@@ -65,23 +65,24 @@ def func(iurl, ip):
             if j:
                 if j.find('Fuas') != -1:
                     seqlist.append(j.split('Fuas=')[1])
-        except:
+        except Exception as e:
+            print(e)
             continue
 
-    print seqlist
-    print 'Saving'
+    print(seqlist)
+    print('Saving')
     p = r1.pipeline()
     for i in seqlist:
         p.lpush('list_UA', i)
     p.execute()
-    print 'Finished'
+    print('Finished')
 
 urlist_UA = r1.lrange(url_UA, 0, r1.llen(url_UA))
 proxies_ip = list(r1.smembers('proxies_ip_live'))
 j = 0
 
 for i in urlist_UA:
-    print j
+    print(j)
     ip = proxies_ip[random.randint(0, len(proxies_ip)-1)]
     func(i, ip)
 

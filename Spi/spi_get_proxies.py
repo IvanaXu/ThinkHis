@@ -78,7 +78,7 @@ class Task_test:
         try:
             code = s.get(test_url, proxies=proxies).status_code
             if code == 200:
-                print ip, 'live'
+                print(ip, 'live')
                 r1.sadd(ip_live, ip)
             else:
                 raise Exception('Visit 500')
@@ -89,7 +89,7 @@ class Task_test:
         p = r1.pipeline()
         p.smembers(ip_pool)
         test_set = p.execute()[0]
-        print 'please wait'
+        print('please wait')
         spawnlist = []
         for i in test_set:
             spawnlist.append(gevent.spawn(self.test_func, i))
