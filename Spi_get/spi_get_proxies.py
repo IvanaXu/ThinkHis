@@ -21,7 +21,7 @@ ip_pool = 'proxies_ip_pool'
 ip_live = 'proxies_ip_live'
 url = 'http://www.66ip.cn/areaindex_19/index.html'
 test_url = 'http://www.baidu.com'
-path = '/ivan/python27/test/others/User-Agent/'
+path = '/ivan/python27/tPatterns/others/User-Agent/'
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
                     datefmt='%a, %d %b %Y %H:%M:%S',
@@ -95,7 +95,7 @@ class Task_test:
             spawnlist.append(gevent.spawn(self.test_func, i))
         gevent.joinall(spawnlist)
 # B = Task_test()
-# B.test()
+# B.tPatterns()
 
 
 class Task_run(Task_get, Task_test):
@@ -120,7 +120,7 @@ class Task_run(Task_get, Task_test):
             #     self.time0 = self.time_get()
             #
             # elif self.time0['hour'] != self.time_get()['hour']:
-            #     Task_test.test(self)
+            #     Task_test.tPatterns(self)
             #     self.time0 = self.time_get()
             #
             # elif self.time0['mins'] != self.time_get()['mins']:
