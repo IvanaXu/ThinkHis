@@ -1,1 +1,2 @@
 # requirements.txt
+pip install gevent requests pyquery redis
