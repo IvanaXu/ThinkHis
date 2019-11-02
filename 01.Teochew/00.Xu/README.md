@@ -26,7 +26,7 @@
 
 世系图如下：
 
-![clip_image000](00.Source/clip_image000.jpg)
+![clip_image000](./00.Source/clip_image000.jpg)
 
 正文。
 
@@ -36,17 +36,17 @@
 
 ![clip_image001](./00.Source/clip_image001.jpg)
 
-![clip_image002](../00.Source/clip_image002.jpg)
+![clip_image002](./00.Source/clip_image002.jpg)
 
-![clip_image003](../00.Source/clip_image003.jpg)
+![clip_image003](./00.Source/clip_image003.jpg)
 
-![clip_image004](../00.Source/clip_image004.jpg)
+![clip_image004](./00.Source/clip_image004.jpg)
 
-![clip_image005](../00.Source/clip_image005.jpg)
+![clip_image005](./00.Source/clip_image005.jpg)
 
-![clip_image006](../00.Source/clip_image006.jpg)
+![clip_image006](./00.Source/clip_image006.jpg)
 
-![clip_image007](../00.Source/clip_image007.jpg)
+![clip_image007](./00.Source/clip_image007.jpg)
 
 正文。
 
