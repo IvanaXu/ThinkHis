@@ -26,7 +26,7 @@
 
 世系图如下：
 
-![image001](/Users/ivan/Desktop/ALL/Code/PyProduct/GitHubI/ThinkHis/01.Teochew/00.Xu/00.Source/clip_image000.jpg)
+![clip_image000](/Users/ivan/Desktop/ALL/Code/PyProduct/GitHubI/ThinkHis/01.Teochew/00.Xu/00.Source/clip_image000.jpg)
 
 正文。
 
