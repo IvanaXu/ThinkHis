@@ -26,7 +26,7 @@
 
 世系图如下：
 
-![clip_image000](./00.Source/clip_image000.jpg)
+![clip_image000](00.Source/clip_image000.jpg)
 
 正文。
 
@@ -34,7 +34,7 @@
 
 正文。 
 
-![clip_image001](../00.Source/clip_image001.jpg)
+![clip_image001](./00.Source/clip_image001.jpg)
 
 ![clip_image002](../00.Source/clip_image002.jpg)
 
