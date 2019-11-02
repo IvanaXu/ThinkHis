@@ -26,7 +26,7 @@
 
 世系图如下：
 
-![image001](../00.Source/clip_image000.jpg)
+![image001](/Users/ivan/Desktop/ALL/Code/PyProduct/GitHubI/ThinkHis/01.Teochew/00.Xu/00.Source/clip_image000.jpg)
 
 正文。
 
@@ -34,19 +34,19 @@
 
 正文。 
 
-![clip_image001](../00.Source/clip_image001.jpg)
+![clip_image001](/Users/ivan/Desktop/ALL/Code/PyProduct/GitHubI/ThinkHis/01.Teochew/00.Xu/00.Source/clip_image001.jpg)
 
-![clip_image002](../00.Source/clip_image002.jpg)
+![clip_image002](/Users/ivan/Desktop/ALL/Code/PyProduct/GitHubI/ThinkHis/01.Teochew/00.Xu/00.Source/clip_image002.jpg)
 
-![clip_image003](../00.Source/clip_image003.jpg)
+![clip_image003](/Users/ivan/Desktop/ALL/Code/PyProduct/GitHubI/ThinkHis/01.Teochew/00.Xu/00.Source/clip_image003.jpg)
 
-![clip_image004](../00.Source/clip_image004.jpg)
+![clip_image004](/Users/ivan/Desktop/ALL/Code/PyProduct/GitHubI/ThinkHis/01.Teochew/00.Xu/00.Source/clip_image004.jpg)
 
-![clip_image005](../00.Source/clip_image005.jpg)
+![clip_image005](/Users/ivan/Desktop/ALL/Code/PyProduct/GitHubI/ThinkHis/01.Teochew/00.Xu/00.Source/clip_image005.jpg)
 
-![clip_image006](../00.Source/clip_image006.jpg)
+![clip_image006](/Users/ivan/Desktop/ALL/Code/PyProduct/GitHubI/ThinkHis/01.Teochew/00.Xu/00.Source/clip_image006.jpg)
 
-![clip_image007](../00.Source/clip_image007.jpg)
+![clip_image007](/Users/ivan/Desktop/ALL/Code/PyProduct/GitHubI/ThinkHis/01.Teochew/00.Xu/00.Source/clip_image007.jpg)
 
 正文。
 
