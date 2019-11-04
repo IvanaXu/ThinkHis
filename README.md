@@ -2,10 +2,6 @@
 
 **——The Science Of The Past Or The Future.**
 
-更新：
-
-**不定期**
-
 引注：
 
 ```
@@ -20,7 +16,12 @@
     001.SouthHan - 南汉 /*TODO*/
     002.XXX - 
 
+未完待续
 ```
+
+更新：
+
+**不定期**
 
 书录：
 
