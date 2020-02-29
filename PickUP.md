@@ -41,6 +41,55 @@
 # 持续
 # 卑微
 # 得道者多助，失道者寡助
+ ```
+```
+Our deepest fear is not that we are inadequate.
+我们最深的恐惧，并非是我们无能为力。
+
+Our deepest fear is that we are powerful beyond measure.
+我们最深的恐惧，是我们不可估量的能力。
+
+It is our light，not our darkness that most frightens us.
+是我们内心的光明，而非黑暗，使我们惊恐不已。
+
+We ask ourselves，
+我们扪心自问，
+
+Who am i to be brilliant， gorgeous，talented and fabulous？
+我是可以聪明，美貌，才华横溢，出类拔萃吗？
+
+Actually who are we not to be？
+难道我们不可以成为这样的人吗？
+
+You are a child of god.
+你是神的孩子。
+
+Your playing small doesn’t serve the world.
+你萎缩自己，掩盖自己的光芒，并不会点亮这个世界。
+
+There is nothing enlightened about shrinking so that other people won’t feel insecure around you.
+缩小自己在狭窄的世界里，为了消除周围的人感到不安，并无裨益。
+
+We are all meant to shine as children do.
+我们本应该光芒四射，象孩子们一样，照亮世界。
+
+We were born to make manifest the glory of god that is within us.
+我们生来就是为了呈现内在已有的神的荣耀。
+
+It’s  not just in some of us; it’s in everyone.
+这种荣耀的光芒不只在一些人身上；它在每个人身上。
+
+And when we let our own light shine,
+当我们让自己发出光芒，
+
+We unconsciously give other people permission to do the same.
+我们不知不觉中也允许他人去闪耀他们的光芒。
+
+As we are liberated from our own fear.
+当我们将自己从恐惧中解放
+
+Our presence automatically liberates  others.
+我们的存在无形中也解放了他人。
 ```
 
 
