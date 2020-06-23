@@ -85,8 +85,10 @@
 # good luck
 # 运筹帷幄
 # 基
-
+# 核心
+# 
 ```
+
 
 ```
 Our deepest fear is not that we are inadequate.
@@ -137,6 +139,4 @@ As we are liberated from our own fear.
 Our presence automatically liberates  others.
 我们的存在无形中也解放了他人。
 ```
-
-
 
