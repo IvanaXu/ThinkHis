@@ -107,9 +107,9 @@
 # /
 # //
 # 知人 善用 
+# 夜朗乃观星, 不忘前尘; 水清至无鱼, 可昭日月;
 # 
 ```
-
 
 ```
 Our deepest fear is not that we are inadequate.
