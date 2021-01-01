@@ -7,8 +7,6 @@
 引注：
 
 ```
-00.Base - 基石
-    001.《史记》司马迁
 01.Teochew - 潮汕
     000.Xu - 徐氏
     001.Chan - 陈氏
@@ -21,48 +19,11 @@
 03.Beijing - 北京 /*TODO*/
     000.XXX - 
 
-TODO：
-/2 广州-粤伶
-/3 佛刹-
-
 ```
 
 更新：
 
 **不定期**
-
-书录：
-
-| 序号 | 书名                                              | 作者                                                         | 今本卷数 |
-| ---- | ------------------------------------------------- | ------------------------------------------------------------ | -------- |
-| 1    | [史记](https://baike.baidu.com/item/史记/254522)  | 西汉·[司马迁](https://baike.baidu.com/item/司马迁/65648)     | 130      |
-| 2    | [汉书](https://baike.baidu.com/item/汉书)         | 东汉·[班固](https://baike.baidu.com/item/班固/81828)         | 100      |
-| 3    | [后汉书](https://baike.baidu.com/item/后汉书)     | 南朝·[范晔](https://baike.baidu.com/item/范晔/5078942)       | 120      |
-| 4    | [三国志](https://baike.baidu.com/item/三国志)     | 西晋·[陈寿](https://baike.baidu.com/item/陈寿/5816)          | 65       |
-| 5    | [晋书](https://baike.baidu.com/item/晋书)         | 唐·[房玄龄](https://baike.baidu.com/item/房玄龄)等           | 130      |
-| 6    | [宋书](https://baike.baidu.com/item/宋书)         | 梁·[沈约](https://baike.baidu.com/item/沈约)                 | 100      |
-| 7    | [南齐书](https://baike.baidu.com/item/南齐书)     | 梁·[萧子显](https://baike.baidu.com/item/萧子显)             | 59       |
-| 8    | [梁书](https://baike.baidu.com/item/梁书)         | 唐·[姚思廉](https://baike.baidu.com/item/姚思廉)             | 56       |
-| 9    | [陈书](https://baike.baidu.com/item/陈书)         | 唐·[姚思廉](https://baike.baidu.com/item/姚思廉)             | 36       |
-| 10   | [魏书](https://baike.baidu.com/item/魏书)         | 北齐·[魏收](https://baike.baidu.com/item/魏收)               | 114      |
-| 11   | [北齐书](https://baike.baidu.com/item/北齐书)     | 唐·[李百药](https://baike.baidu.com/item/李百药)             | 50       |
-| 12   | [周书](https://baike.baidu.com/item/周书)         | 唐·[令狐德棻](https://baike.baidu.com/item/令狐德棻)等       | 50       |
-| 13   | [隋书](https://baike.baidu.com/item/隋书)         | 唐·[魏徵](https://baike.baidu.com/item/魏徵)等               | 85       |
-| 14   | [南史](https://baike.baidu.com/item/南史)         | 唐·[李延寿](https://baike.baidu.com/item/李延寿/2189055)     | 80       |
-| 15   | [北史](https://baike.baidu.com/item/北史)         | 唐·[李延寿](https://baike.baidu.com/item/李延寿/2189055)     | 100      |
-| 16   | [旧唐书](https://baike.baidu.com/item/旧唐书)     | 后晋·[刘昫](https://baike.baidu.com/item/刘昫)等             | 200      |
-| 17   | [新唐书](https://baike.baidu.com/item/新唐书)     | 宋·[欧阳修](https://baike.baidu.com/item/欧阳修/127825)、[宋祁](https://baike.baidu.com/item/宋祁) | 225      |
-| 18   | [旧五代史](https://baike.baidu.com/item/旧五代史) | 宋·[薛居正](https://baike.baidu.com/item/薛居正)等           | 150      |
-| 19   | [新五代史](https://baike.baidu.com/item/新五代史) | 宋·[欧阳修](https://baike.baidu.com/item/欧阳修)             | 74       |
-| 20   | [宋史](https://baike.baidu.com/item/宋史)         | 元·[脱脱](https://baike.baidu.com/item/脱脱)等               | 496      |
-| 21   | [辽史](https://baike.baidu.com/item/辽史)         | 元·[脱脱](https://baike.baidu.com/item/脱脱)等               | 116      |
-| 22   | [金史](https://baike.baidu.com/item/金史)         | 元·[脱脱](https://baike.baidu.com/item/脱脱)等               | 135      |
-| 23   | [元史](https://baike.baidu.com/item/元史/2859504) | 明·[宋濂](https://baike.baidu.com/item/宋濂)、[王袆](https://baike.baidu.com/item/王袆)等 | 210      |
-| 24   | [明史](https://baike.baidu.com/item/明史/1702588) | 清·[张廷玉](https://baike.baidu.com/item/张廷玉/234347)、[万斯同](https://baike.baidu.com/item/万斯同)等 | 332      |
-
-目录：
-
-[TOC]
 
 正文：
 
