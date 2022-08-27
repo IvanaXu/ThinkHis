@@ -1,6 +1,6 @@
 # ThinkHis
 
-**——The Science Of The Past Or The Future.**
+** The Science Of The Past Or The Future **
 
 >
 > https://github.com/IvanaXu/ThinkHis
